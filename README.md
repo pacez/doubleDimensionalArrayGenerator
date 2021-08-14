@@ -1,15 +1,35 @@
 # doubleDimensionalArrayGenerator
 二维数组生成器
 
+根据参数配置，生成一个有序的二维数组。
+
+
+
+### Config
+
+| Name    | Desc     |
+| ------- | -------- |
+| columns | 列数     |
+| rows    | 行数     |
+| start   | 起始值   |
+| step    | 递增步长 |
+
+
+
+### 示例
+
+
 ```typescript
+import doubleDimensionalArrayGenerator from 'double-dimensional-array-generator';
+
 const doubleDimensionalArray  =  doubleDimensionalArrayGenerator({
   columns: 5,
   rows: 6,
   start: 1,
   step: 1
-})
+});
 
-console.log(doubleDimensionalArray)
+console.log(doubleDimensionalArray);
 
 /*
 输出: 

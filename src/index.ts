@@ -5,14 +5,17 @@ interface IConfig {
   start: number; // 起始值
 }
 
+
 /**
+ * author: pace_zhong@foxmail.com
+ * 
  * [二维数组生成器]
  *
  * @param   {IConfig<Number>[]}  config  [二维数组生成配置]
  *
  * @return  {Array<Number>[]}            [生成的二维数组]
  */
-export default function doubleDimensionalArrayGenerator(config: IConfig): Array<Number[]> {
+export = function doubleDimensionalArrayGenerator(config: IConfig): Array<Number[]> {
   
   const { columns, rows, step, start } = config;
   const arr: Array<Number[]> = [];
@@ -37,4 +40,3 @@ export default function doubleDimensionalArrayGenerator(config: IConfig): Array<
 
   return arr
 }
-

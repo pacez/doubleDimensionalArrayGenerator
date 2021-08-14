@@ -1,0 +1,27 @@
+{
+  "name": "double-dimensional-array-generator",
+  "version": "1.0.1",
+  "description": "二维数组生成器（Two-dimensional array generator）",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacez/doubleDimensionalArrayGenerator"
+  },
+  "keywords": [
+    "Two-dimensional array",
+    "double-dimensional-array-generator"
+  ],
+  "author": "pace_zhong@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pacez/doubleDimensionalArrayGenerator/issues"
+  },
+  "homepage": "https://github.com/pacez/doubleDimensionalArrayGenerator#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
